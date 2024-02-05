@@ -147,7 +147,8 @@ font-size: 60px;
     .c14 {
         /* Apply the centering styles using the common class */
         text-align: center;
-        padding-left: 0; /* Reset any specific left padding if needed */
+        padding-left: 0;
+        font-size: 20px; /* Reset any specific left padding if needed */
     }
 }
 
