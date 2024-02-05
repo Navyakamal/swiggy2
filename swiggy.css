@@ -125,31 +125,98 @@ font-size: 60px;
     filter: grayscale(0%);
 } */
 @media only screen and (max-width: 768px) {
-
-    .carousel-caption,
-    h5,
-    .c1,
-    h5.c1 span,
-    p.c2,
-    .c3,
-    h5 .c3 span,
-    .c4,
-    .c5,
-    .c5 span,
-    .c6,
-    .c7,
-    .c8,
-    .c9,
-    .c10,
-    .c11,
-    .c12,
-    .c13,
-    .c14 {
-        /* Apply the centering styles using the common class */
-        text-align: center;
-        padding-left: 0;
-        font-size: 20px; /* Reset any specific left padding if needed */
+    .carousel-caption {
+        font-size: 14px; /* Adjust the font size for small screens */
+        margin-left: 0; /* Adjust the margin as needed */
     }
-}
+    h5{
+        font-size: 16px;
+        padding-left: 670px;
+    }
+    .c1{
+        font-size: 18px;
+    }
 
+    h5.c1 span {
+        font-size: 20px; /* Adjust the font size for small screens */
+    }
+
+    p.c2 {
+        font-size: 16px;
+        padding-left: 730px; /* Adjust the font size for small screens */
+    }
+
+    /* Add more styles for other captions as needed */
+    .c3{
+        font-size: 25px;
+        padding-left: 850px;
+    }
+    h5 .c3 span{
+        font-size: 25px;
+    
+    }
+    .c4{
+        font-size: 18px;
+        padding-left: 630px;
+    }
+    .c5{
+        font-size: 23px;
+        padding-left: 550px;
+        
+    }
+    .c5 span{
+        font-size: 23px;
+        
+    }
+    .c6{
+        font-size: 18px;
+        padding-left: 650px;
+        margin-bottom: 200px;
+        line-height: 2px;
+    }
+    .c7{
+        font-size: 40px;
+        padding-left: 800px;
+        
+    }
+    .c8{
+        font-size: 25px;
+        padding-left: 800px;
+        margin-bottom: 150px;
+        
+    }
+    .c9{
+        font-size: 40px;
+        padding-left: 750px;
+        
+    }
+    .c10{
+        font-size: 35px;
+        padding-left: 790px;
+        margin-bottom: 300px;
+        
+    }
+    .c11{
+        font-size: 40px;
+        padding-left: 730px;
+        
+    }
+    .c12{
+        font-size: 35px;
+        padding-left: 720px;
+        margin-bottom: 230px;
+        
+    } 
+    .c13{
+        font-size: 40px;
+        padding-left: 860px;
+        
+    }
+    .c14{
+        font-size: 35px;
+        padding-left: 680px;
+        margin-bottom: 150px;
+        
+    }    
+} 
 
