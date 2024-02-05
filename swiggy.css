@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+.navbar-brand:hover{
+    transform: scale(1.1);
+}
+
+.nav-item a:hover{
+            color: rgb(228, 70, 12);
+            border-bottom: solid rgb(235, 71, 12);
+            margin-bottom: 10px;
+}
+.nav-item a{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h5{
+    
+    font-size: 70px;
+    margin-bottom: 40px;
+    margin-left: -961px;
+   
+}
+p{
+    margin-bottom: 150px;
+    margin-left: -936px;
+    font-size: 45px;
+}
+.c1{
+    font-family: 'Sixtyfour', sans-serif;
+    font-size: 50px;
+    margin-left: -600px;
+    color: white
+}
+.c1 span{
+    
+    color: orangered;
+    font-size: 60px;
+}
+.c2{
+    font-family: 'Poor Story', system-ui;
+    font-size: 50px;
+}
+.c3{
+    font-family: 'Black Ops One', system-ui;
+    color: rgba(255, 255, 255, 0.937); 
+}
+.c3 span{
+    color: red;
+}
+.c4{
+    margin-left: -650px;
+    color: red;
+    line-height: 5px;
+    font-family: 'Black Ops One', system-ui;
+}
+.c5{
+    font-family: 'IBM Plex Mono', monospace;
+    margin-left: -650px;
+    color:olivedrab;
+    margin-bottom: 40px;
+}
+.c5 span{
+    color: firebrick;
+    font-size: 80px;
+}
+.c6{
+    margin-left: -750px;
+    margin-bottom: 60px;
+    font-family: 'IBM Plex Mono', monospace;
+    color: olivedrab;
+}
+.c7{
+    font-family: 'Honk', system-ui;
+    margin-left: -830px;
+    font-size: 90px;
+}
+.c8{
+    font-family: 'Cute Font', sans-serif;
+    font-size: 70px;
+    line-height: 5px;
+    margin-bottom: 200px;
+}
+.c9{
+    font-family: 'Cute Font', sans-serif;
+    font-size: 110px;
+    color: yellow;
+    margin-left: -850px;
+}
+.c10{
+    font-family: 'Cute Font', sans-serif;
+    font-size: 80px;
+    line-height: 5px;
+    margin-bottom: 250px;
+    color: yellow;
+    margin-left: -850px;
+}
+.c11{
+    font-family: 'Workbench', sans-serif;
+    margin-left: -800px;
+}
+.c12{
+    margin-left: -850px;
+    font-family: 'Workbench', sans-serif;
+font-size: 60px;
+}
+.c13{
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-left: -850px;
+}
+.c14{
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+/* .carousel-item img{
+    filter: grayscale(100%);
+    transition: all 0.3s;
+}
+.carousel-item img:hover{
+    filter: grayscale(0%);
+} */
+@media only screen and (max-width: 768px) {
+    .carousel-caption {
+        font-size: 14px; /* Adjust the font size for small screens */
+        margin-left: 0; /* Adjust the margin as needed */
+    }
+    h5{
+        font-size: 16px;
+        padding-left: 570px;
+    }
+    .c1{
+        font-size: 18px;
+    }
+
+    h5.c1 span {
+        font-size: 20px; /* Adjust the font size for small screens */
+    }
+
+    p.c2 {
+        font-size: 16px;
+        padding-left: 720px; /* Adjust the font size for small screens */
+    }
+
+    /* Add more styles for other captions as needed */
+    .c3{
+        font-size: 25px;
+        padding-left: 800px;
+    }
+    h5 .c3 span{
+        font-size: 25px;
+    
+    }
+    .c4{
+        font-size: 18px;
+        padding-left: 590px;
+    }
+    .c5{
+        font-size: 23px;
+        padding-left: 500px;
+        
+    }
+    .c5 span{
+        font-size: 23px;
+        
+    }
+    .c6{
+        font-size: 18px;
+        padding-left: 600px;
+        margin-bottom: 200px;
+        line-height: 2px;
+    }
+    .c7{
+        font-size: 40px;
+        padding-left: 770px;
+        
+    }
+    .c8{
+        font-size: 25px;
+        padding-left: 770px;
+        margin-bottom: 150px;
+        
+    }
+    .c9{
+        font-size: 40px;
+        padding-left: 710px;
+        
+    }
+    .c10{
+        font-size: 35px;
+        padding-left: 750px;
+        margin-bottom: 300px;
+        
+    }
+    .c11{
+        font-size: 40px;
+        padding-left: 730px;
+        
+    }
+    .c12{
+        font-size: 35px;
+        padding-left: 700px;
+        margin-bottom: 230px;
+        
+    } 
+    .c13{
+        font-size: 40px;
+        padding-left: 830px;
+        
+    }
+    .c14{
+        font-size: 35px;
+        padding-left: 650px;
+        margin-bottom: 150px;
+        
+    }    
+} 
+
